@@ -12,7 +12,7 @@ SampleApp::Application.configure do
   config.serve_static_assets = false
 
   # Force all access to the app over SSL, use Strict-Transport-Security, # and use secure cookies.
-  config.force ssl = true
+  config.force_ssl = true
 
   # Compress JavaScripts and CSS
   config.assets.compress = true
