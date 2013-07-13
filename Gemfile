@@ -8,8 +8,6 @@ gem 'bcrypt-ruby', '3.0.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 group :development do
   gem 'sqlite3','1.3.5'
-
-  gem 'pg','0.12.2'
   gem 'rspec-rails','2.9.0'
   gem 'annotate', '~> 2.4.1.beta'
 
